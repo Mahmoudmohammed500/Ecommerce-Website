@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Home Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- This file render the elements--> 
+        <link rel="stylesheet" href="./CSS/Normalize.css">
+        <!-- Font Awesome_Icons--> 
+        <link rel="stylesheet" href="./CSS/all.min.css">
+        <!-- Main_Template_Css_File--> 
+        <link rel="stylesheet" href="./CSS/master.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Work+Sans:ital,wght@0,200;0,300;0,600;0,700;1,500;1,800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Start Header -->
+        <header>
+            <div class="container">
+                <a href="#" class="logo">
+                    <img src="./Images/Logo.jpg" alt="">
+                </a>
+                <nav>
+                    <i id="menu" class="fas fa-bars toggle-menu"></i>
+                    <ul  id="list" class="list">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./About_page.html">About</a></li>  
+                        <li><a href="./Contact_page.html">Contact</a></li>
+                        <li>  <div class="shopping">
+                                <i id="carticon" class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                <span>0</span>
+                            </div></li>
+                        <li><div class="user">
+                                <i class="fa fa-user" aria-hidden="true"></i> 
+                                <span>Username</span>
+                            </div></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- End Header -->
+        <!-- Start Slider -->
+        <div id="slider-container" class="slider-container">
+            <div id="slide-number" class="slide-number"></div>
+            <img src="./Images/mobils6.jpg" alt="" />
+            <img src="./Images/mobiles2.png" alt="" />
+            <img src="./Images/mobiles3.jpg" alt="" />
+            <img src="./Images/laptops6.jpg" alt="" />
+            <img src="./Images/watches6.jpg" alt="" />
+        </div>
+        <div id="slidercontrols" class="slider-controls">
+            <span id="prev" class="prev">Previous</span>
+            <span id="indicators" class="indicators"></span>
+            <span id="next" class="next">Next</span>
+        </div>
+        <!-- End Slider -->
+        <!-- Start Products -->
+        <div id="allproducts" class="all">
+
+            <aside class="filter">
+                <h4>Categories</h4>
+                <ul>
+                    <li id="mobilesbtn" class="active">Mobiles</li> 
+                    <li id="laptopsbtn">Laptops</li> 
+                    <li id="watchesbtn">Watches</li> 
+                    <li id="screensbtn">Screens</li>
+                </ul>
+                <h4>Brands</h4> 
+                <ul> 
+                    <li id="DELLbtn">DELL</li>
+                    <li id="HPbtn">HP</li> 
+                    <li id="OPPObtn">OPPO</li> 
+                    <li id="Casiobtn">Casio</li>
+                </ul>
+            </aside>
+            <div class="products">
+                <h4>Products</h4>  
+                <div id="mobils">
+                    <div class="cards">
+                        <div class="card">
+                            <h4>OPPO Reno7</h4>
+                            <div class="image">
+                                <img src="./Images/mobile.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>90$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>11365 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div> 
+
+
+                        <div class="card">
+                            <h4>OPPO Reno7</h4>
+                            <div class="image">
+                                <img src="./Images/mobile.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>90$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>11365 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h4>OPPO Reno7</h4>
+                            <div class="image">
+                                <img src="./Images/mobile.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>90$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <br><span>11365 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h4>OPPO Reno7</h4>
+                            <div class="image">
+                                <img src="./Images/mobile.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>90$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>11365 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="laptops">
+                    <div class="cards">
+                        <div class="card">
+                            <h4>Hp x30300</h4>
+                            <div class="image">
+                                <img src="./Images/laptop3.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>199$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>11365 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div> 
+
+
+                        <div class="card">
+                            <h4>Hp x30300</h4>
+                            <div class="image">
+                                <img src="./Images/laptop3.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>199$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>11365 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h4>Hp x30300</h4>
+                            <div class="image">
+                                <img src="./Images/laptop3.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>199$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>11365 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="card">
+                            <h4>Hp x30300</h4>
+                            <div class="image">
+                                <img src="./Images/laptop3.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>199$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>11365 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div> 
+
+
+                    </div>
+                </div>
+
+
+                <div id="watchs">
+                    <div class="cards">
+                        <div class="card">
+                            <h4>Casio</h4>
+                            <div class="image">
+                                <img src="./Images/Watch2.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>50$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>15165 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div> 
+
+
+                        <div class="card">
+                            <h4>Casio</h4>
+                            <div class="image">
+                                <img src="./Images/Watch2.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>50$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>15165 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>  
+
+
+
+                        <div class="card">
+                            <h4>Casio</h4>
+                            <div class="image">
+                                <img src="./Images/Watch2.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>50$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>15165 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div> 
+
+
+                    </div>
+                </div>
+
+
+                <div id="screens">
+                    <div class="cards">
+                        <div class="card">
+                            <h4>CTX</h4>
+                            <div class="image">
+                                <img src="./Images/screen1.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>70$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>9055 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div> 
+
+
+                        <div class="card">
+                            <h4>CTX</h4>
+                            <div class="image">
+                                <img src="./Images/screen1.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>70$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>9055 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="card">
+                            <h4>CTX</h4>
+                            <div class="image">
+                                <img src="./Images/screen1.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>70$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>9055 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="card">
+                            <h4>CTX</h4>
+                            <div class="image">
+                                <img src="./Images/screen1.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>70$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>9055 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div> 
+
+                    </div>
+                </div>
+
+
+                <div id="dell">
+                    <div class="cards">
+                        <div class="card">
+                            <h4>DELL x4645</h4>
+                            <div class="image">
+                                <img src="./Images/laptop1.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>210$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>13350 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div> 
+
+
+                        <div class="card">
+                            <h4>DELL x4645</h4>
+                            <div class="image">
+                                <img src="./Images/laptop1.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>210$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>13350 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h4>DELL x4645</h4>
+                            <div class="image">
+                                <img src="./Images/laptop1.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>210$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>13350 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <div id="hp">
+                    <div class="cards">
+                        <div class="card">
+                            <h4>HP x453000</h4>
+                            <div class="image">
+                                <img src="./Images/laptop2.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>190$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>13665 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="card">
+                            <h4>HP x453000</h4>
+                            <div class="image">
+                                <img src="./Images/laptop2.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>190$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>13665 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="card">
+                            <h4>HP x453000</h4>
+                            <div class="image">
+                                <img src="./Images/laptop2.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>190$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>13665 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button class="addtocart">Preview</button>
+                                    <button><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div> 
+
+
+                    </div>
+                </div>
+
+
+                <div id="oppo">
+                    <div class="cards">
+                        <div class="card">
+                            <h4>OPPO Reno7</h4>
+                            <div class="image">
+                                <img src="./Images/mobile.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>90$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>11365 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div> 
+
+
+                        <div class="card">
+                            <h4>OPPO Reno7</h4>
+                            <div class="image">
+                                <img src="./Images/mobile.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>90$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>11365 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h4>OPPO Reno7</h4>
+                            <div class="image">
+                                <img src="./Images/mobile.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>90$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <br><span>11365 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h4>OPPO Reno7</h4>
+                            <div class="image">
+                                <img src="./Images/mobile.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>90$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>11365 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="casio">
+                    <div class="cards">
+                        <div class="card">
+                            <h4>CASIO</h4>
+                            <div class="image">
+                                <img src="./Images/Watch2.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>40$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>20365 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div> 
+
+
+                        <div class="card">
+                            <h4>CASIO</h4>
+                            <div class="image">
+                                <img src="./Images/Watch2.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>40$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>20365 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <h4>CASIO</h4>
+                            <div class="image">
+                                <img src="./Images/Watch2.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="review">
+                                    <h5>40$</h5>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <br> <span>20365 Sales</span>
+                                </div>
+                                <div class="buttons">
+                                    <button>Preview</button>
+                                    <button class="addtocart"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Products -->
+        <!-- Start Cart -->
+        <div id="cart" class="products-container"> 
+            <h1>Cart</h1>  <button id="xbtn">x</button>
+            <div class="product-header">
+                <h3 Class="product-title"> PRODUCT</h3>
+                <h3 class="price"> PRICE</h3>
+                <h3 class="quantity">QUANTITY</h3>
+                <h3 class="total">TOTAL</h3>
+            </div>
+            <div class="productincart">
+
+            </div> 
+        </div>
+      <!-- start footer --> 
+        <footer>
+            <div class="part2">
+                <div class="text1">
+                    <h3>Quick Connection</h3>
+
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./About_page.html">About</a></li>  
+                        <li><a href="./Contact_page.html">Contact</a></li>
+                    </ul>
+                </div> 
+                <div class="text2">
+                    <h3>Payment Method</h3>
+                    <p>We accept payment by any of the following methods: </p>
+                    <img src="./Images/Payment-Methods.jpg" Alt="">
+                    <div>Copyright&COPY;The Yellow Ferrari poster shop2020.All Rights Reserved</div>
+                </div> 
+                <div class="text3">
+                    <h3>Save Newsletter</h3>
+                    <p>Add store to your favorite and receive email and receive email newsletter about new items and special offers!</p>
+                    <button><i class="fa fa-envelope"></i> Register Now</button>
+                    <div class="icons">
+                        <ul>
+                            <li>
+                                <a href="#"
+                                   ><i class="fab fa-facebook fa-lg facebook rounded-circle p-2"></i
+                                    ></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                   ><i class="fab fa-twitter fa-lg twitter rounded-circle p-2"></i
+                                    ></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                   ><i class="fab fa-linkedin fa-lg linkedin rounded-circle p-2"></i
+                                    ></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                   ><i class="fab fa-youtube fa-lg youtube rounded-circle p-2"></i
+                                    ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+        </footer>
+        <!-- End footer --> 
+
+       
+        <script src="./JavaScript/main.js"></script>
+    </body>
+</html>
