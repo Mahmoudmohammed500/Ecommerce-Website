@@ -586,7 +586,23 @@ footer .icons .youtube {
  .all .filter {
     width:26%;
 }
+} 
+@media (max-width:400px){
+    .all .filter {
+       width:27%;
+   }
+   }
+   
+   @media (max-width: 381px){
+.all .filter {
+    width: 27%;
 }
+} 
+@media (max-width: 385px){
+    .all .filter {
+        width: 28%;
+    }
+    } 
 .all .filter h4 {
     display:flex;
     justify-content: center;
@@ -630,6 +646,16 @@ footer .icons .youtube {
     width:74%;
     }
 }
+@media (max-width:400px){
+    .all .products {
+       width:80%;
+       }
+   }
+   @media (max-width:385px){
+    .all .products {
+       width:65%;
+       }
+   } 
 .all .products h4{
     display:flex;
     justify-content: center;
@@ -645,11 +671,22 @@ footer .icons .youtube {
     position:absolute;
     gap:40px;
 }
+@media (max-width:400px){
+    .cards {
+        padding:1px;
+    }
+} 
 .card {
     border:1px solid var(--main-color);
     margin-left: 10px;
     text-align: center;
 }
+@media (max-width:385px){
+    .card {
+        margin-left: -12px;
+        width: 229px;
+    }
+    }
 .card h4 {
     display:flex;
     justify-content: center;
@@ -873,7 +910,8 @@ footer .icons .youtube {
         left: -236px;
     }
 }
-/*End Cart */
 #cart {
- display:none;
-}
+    display:none;
+   }
+/*End Cart */
+
